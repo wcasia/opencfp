@@ -111,20 +111,6 @@ homepage:
   methods: [GET]
   controller: OpenCFP\Http\Action\Page\HomePageAction
 
-speaker_package:
-  path: /package
-  methods: [GET]
-  controller: FrameworkBundle:Template:template
-  defaults:
-    template: package.twig
-
-talk_ideas:
-  path: /ideas
-  methods: [GET]
-  controller: FrameworkBundle:Template:template
-  defaults:
-    template: ideas.twig
-
 dashboard:
   path: /dashboard
   methods: [GET]

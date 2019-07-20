@@ -8,3 +8,10 @@ Most updates are performed via direct code changes. Once changes are done, run f
 cd /var/www/speak.wpasia.org/htdocs &&
 composer run update-env
 ```
+
+## Clearing cache
+
+```
+cd /var/www/speak.wpasia.org/htdocs &&
+bin/console cache:clear
+```

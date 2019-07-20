@@ -93,7 +93,7 @@ final class IndexActionTest extends AbstractActionTestCase
                 $this->identicalTo([
                     'type'  => 'error',
                     'short' => 'Error',
-                    'ext'   => 'Sorry, the call for papers has ended.',
+                    'ext'   => 'Sorry, the call for speakers has ended.',
                 ])
             );
 

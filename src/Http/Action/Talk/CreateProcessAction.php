@@ -108,7 +108,7 @@ final class CreateProcessAction
             $request->getSession()->set('flash', [
                 'type'  => 'error',
                 'short' => 'Error',
-                'ext'   => 'You cannot create talks once the call for papers has ended',
+                'ext'   => 'You cannot create talks once the call for speakers has ended',
             ]);
 
             $url = $this->urlGenerator->generate('dashboard');

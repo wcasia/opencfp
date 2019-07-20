@@ -41,7 +41,7 @@ final class EditActionTest extends WebTestCase implements TransactionalTestCase
         $this->assertResponseIsRedirect($response);
         $this->assertResponseBodyNotContains('Edit Your Talk', $response);
         $this->assertSessionHasFlashMessage('error', $this->container->get('session'));
-        $this->assertSessionHasFlashMessage('You cannot edit talks once the call for papers has ended', $this->container->get('session'));
+        $this->assertSessionHasFlashMessage('You cannot edit talks once the call for speakers has ended', $this->container->get('session'));
     }
 
     /**

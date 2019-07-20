@@ -70,7 +70,7 @@ final class CreateProcessActionTest extends WebTestCase implements Transactional
 
         $this->assertResponseIsRedirect($response);
         $this->assertResponseBodyNotContains('Create Your Talk', $response);
-        $this->assertSessionHasFlashMessage('You cannot create talks once the call for papers has ended', $this->session());
+        $this->assertSessionHasFlashMessage('You cannot create talks once the call for speakers has ended', $this->session());
     }
 
     /**

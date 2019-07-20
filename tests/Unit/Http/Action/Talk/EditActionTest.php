@@ -42,7 +42,7 @@ final class EditActionTest extends AbstractActionTestCase
                 $this->identicalTo([
                     'type'  => 'error',
                     'short' => 'Read Only',
-                    'ext'   => 'You cannot edit talks once the call for papers has ended',
+                    'ext'   => 'You cannot edit talks once the call for speakers has ended',
                 ])
             );
 

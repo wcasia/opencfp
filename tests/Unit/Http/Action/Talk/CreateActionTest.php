@@ -39,7 +39,7 @@ final class CreateActionTest extends AbstractActionTestCase
                 $this->identicalTo([
                     'type'  => 'error',
                     'short' => 'Error',
-                    'ext'   => 'You cannot create talks once the call for papers has ended',
+                    'ext'   => 'You cannot create talks once the call for speakers has ended',
                 ])
             );
 

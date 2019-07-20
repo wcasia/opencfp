@@ -65,7 +65,7 @@ final class IndexAction
             $request->getSession()->set('flash', [
                 'type'  => 'error',
                 'short' => 'Error',
-                'ext'   => 'Sorry, the call for papers has ended.',
+                'ext'   => 'Sorry, the call for speakers has ended.',
             ]);
 
             $url = $this->urlGenerator->generate('homepage');

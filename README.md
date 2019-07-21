@@ -71,11 +71,14 @@ git checkout wcasia
 **OpenCFP config file**
 
 Use sample config file to set development config
+
 ```
 cp config/development.yml.dist config/development.yml
 ```
 
-Edit `config/development.yml` with database info. You can use `ee site info opencfp.test` to find database credentials created for this site.
+Edit `config/development.yml` with database info.
+
+You can use `ee site info opencfp.test` to find database credentials created for this site.
 
 **Run Setup**
 
@@ -86,6 +89,7 @@ composer run setup-env
 ```
 
 **Optional**
+
 If you need PhpMyAdmin or Mailhog to debug stuff:
 
 ```

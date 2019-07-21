@@ -20,34 +20,17 @@
             <label for="form-user-twitter">Twitter</label>
             <input id="form-user-twitter" type="text" name="twitter" placeholder="@twitter" value="{{ twitter | default('') }}">
 
-            <label for="form-user-joindin-username">joind.in username</label>
+            <label for="form-user-joindin-username">WordPress.org username</label>
             <input id="form-user-joindin-username" type="text" name="joindin_username" placeholder="first_lastname" value="{{ joindin_username | default('') }}">
 
             <label for="form-user-url">URL</label>
             <input id="form-user-url" type="text" name="url" placeholder="https://example.com" value="{{ url | default('') }}">
-
-            {% if site.online_conference == false %}
-                <h3 class="text-base text-dark-soft mt-4">Travel Assistance</h3>
-                <div>
-                    <input id="form-transportation" name="transportation" type="checkbox" value="1" {% if transportation == '1' %}checked{% endif %}>
-                    <label for="form-transportation" class="text-base text-normal text-dark">I need help with flight cost</label>
-                </div>
-                <div>
-                    <input id="form-hotel" name="hotel" type="checkbox" value="1" {% if hotel == '1' %}checked{% endif %}>
-                    <label for="form-hotel" class="text-base text-normal text-dark">I need help with hotel cost</label>
-                </div>
-            {% endif %}
         </div>
 
         <div class="w-1/2 ml-4">
             <label for="form-user-bio">Speaker Bio</label>
             <textarea id="form-user-bio" name="speaker_bio" placeholder="Tell us about yourself ..." rows="5">{{ speaker_bio | default('') }}</textarea>
             <p class="text-xs text-em mb-2 text-dark-soft">Speaker bio can be written using <a href="https://daringfireball.net/projects/markdown/basics" target="_blank" class="text-underline" rel="noopener noreferrer">markdown</a> to support links</p>
-
-            {% if site.online_conference == false %}
-                <label for="form-user-airport">Departing Airport Code</label>
-                <input id="form-user-airport" type="text" name="airport" placeholder="3 Characters" value="{{ airport | default('') }}">
-            {% endif %}
 
             <label for="form-user-notes">Additional Notes</label>
             <textarea id="form-user-notes" name="speaker_info" placeholder="Any other information you feel the organizers should be aware of ..." rows="5">{{ speaker_info | default('') }}</textarea>

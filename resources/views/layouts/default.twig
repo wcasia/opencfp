@@ -14,6 +14,7 @@
                 </a>
                 <div class="flex">
                     <a href="{{ url('homepage') }}" class="mr-8 py-6 {% if active('homepage') %}border-b-4 border-brand{% else %}text-soft{% endif %}">Home</a>
+                    <a href="{{ url('homepage') }}" class="mr-8 py-6 ">Submit a Talk</a>
                     {% if user is defined and user is not empty %}
                         <a href="{{ url('dashboard') }}" class="mr-8 py-6 {% if active('dashboard') %}border-b-4 border-brand{% else %}text-soft{% endif %}">Dashboard</a>
                         {% if user_is_admin %}

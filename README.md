@@ -102,7 +102,6 @@ http://opencfp.test/ee-admin/mailhog/
 
 To get HTTP Auth i.e. username &amp; password, please use:
 
-````
+```
 ee auth list global
-
 ```

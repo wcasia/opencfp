@@ -93,12 +93,9 @@ ee admin-tools enable opencfp.test
 ee mailhog enable opencfp.test
 ```
 
-You may need mailhog to access signup confirmation email in dev enviornemt.
-Mailhog url:
+You may need mailhog to access signup confirmation email in dev enviornment.
+Mailhog url: http://opencfp.test/ee-admin/mailhog/
 
-```
-http://opencfp.test/ee-admin/mailhog/
-```
 
 To get HTTP Auth i.e. username &amp; password, please use:
 

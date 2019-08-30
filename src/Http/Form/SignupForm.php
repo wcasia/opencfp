@@ -228,7 +228,7 @@ class SignupForm extends Form
             return true;
         }
 
-        $this->addErrorMessage('Please enter a valid joind.in username.');
+        $this->addErrorMessage('Please enter a valid wordpress.org username. <br/> <b>Username only</b>. NOT complete url.');
 
         return false;
     }

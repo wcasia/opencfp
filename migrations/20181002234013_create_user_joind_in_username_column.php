@@ -61,7 +61,7 @@ class CreateUserJoindInUsernameColumn extends AbstractMigration
 
         foreach ($users as $user) {
             $user->url = $user->joindin_username
-                                        ? 'https://joind.in/user/' . $user->joindin_username
+                                        ? 'https://profiles.wordpress.org/' . $user->joindin_username
                                         : null;
             $user->joindin_username = null;
             $user->save();

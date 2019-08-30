@@ -161,7 +161,7 @@ class SpeakerProfile
             return '';
         }
 
-        return 'https://joind.in/user/' . $username;
+        return 'https://profiles.wordpress.org/' . $username;
     }
 
     /**

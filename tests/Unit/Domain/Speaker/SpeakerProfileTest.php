@@ -424,7 +424,7 @@ final class SpeakerProfileTest extends Framework\TestCase
             'joindin_username' => $joindinUsername,
         ]);
 
-        $expectedUrl = 'https://joind.in/user/' . $joindinUsername;
+        $expectedUrl = 'https://profiles.wordpress.org/' . $joindinUsername;
 
         $profile = new SpeakerProfile($speaker);
 

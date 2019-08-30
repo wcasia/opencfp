@@ -17,7 +17,7 @@
             <label for="form-user-company">Company</label>
             <input id="form-user-company" type="text" name="company" placeholder="Company" value="{{ company | default('') }}">
 
-            <label for="form-user-joindin-username"><span class="text-red-dark font-bold" title="Required Field">*</span> WordPress.org Username</label>
+            <label for="form-user-joindin-username"><span class="text-red-dark font-bold" title="Required Field">*</span> WordPress.org Username only. <em>(NOT Profile URL)</em></label>
             <input id="form-user-joindin-username" type="text" name="joindin_username" placeholder="username in https://profiles.wordpress.org/username/" value="{{ joindin_username | default('') }}" required>
 
             <label for="form-user-twitter">Twitter</label>

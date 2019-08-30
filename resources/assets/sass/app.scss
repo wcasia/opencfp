@@ -37,7 +37,7 @@ $fa-font-path: "/assets/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
 
 // Font Imports
-@import url("//fonts.googleapis.com/css?family=Roboto|Zilla+Slab");
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab|Rubik");
 
 // Base element styles
 html {
@@ -50,11 +50,11 @@ html {
 }
 
 body {
-  @apply .font-sans .text-base .leading-normal .text-dark .m-0 .pb-8;
+  @apply .font-serif .text-base .leading-normal .text-dark .m-0 .pb-8;
 }
 
 button, [role=button] {
-  @apply .cursor-pointer;
+  @apply .font-serif .cursor-pointer;
 }
 
 img {
@@ -66,11 +66,16 @@ button, input {
 }
 
 a {
-  @apply .text-grey-darkest .no-underline;
+  @apply .text-red no-underline;
 }
 
+a:hover{
+  @apply underline;
+}
+
+
 h1, h2, h3 {
-  @apply .mb-2;
+  @apply .font-sans .mb-2;
 }
 
 p {

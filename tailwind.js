@@ -56,13 +56,13 @@ var colors = {
   'grey-lightest': '#fafcfc',
   'white': '#ffffff',
 
-  'red-darkest': '#420806',
-  'red-darker': '#6a1b19',
-  'red-dark': '#cc1f1a',
-  'red': '#e3342f',
-  'red-light': '#ef5753',
-  'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
+  'red-darkest': '#9e1513',
+  'red-darker': '#bc1917',
+  'red-dark': '#db1d1b',
+  'red': '#e63331',
+  'red-light': '#ea514f',
+  'red-lighter': '#ed6f6e',
+  'red-lightest': '#f18d8c',
 
   'orange-darkest': '#542605',
   'orange-darker': '#7f4012',
@@ -128,7 +128,7 @@ var colors = {
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
 
-  'brand': '#e04c3e',
+  'brand': '#e63331',
 }
 
 module.exports = {
@@ -196,27 +196,16 @@ module.exports = {
 
   fonts: {
     'sans': [
-      '-apple-system',
-      'BlinkMacSystemFont',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
+      'Rubik',
       'Helvetica Neue',
     ],
     'serif': [
-      'Zilla Slab',
+      'Roboto Slab',
       'serif',
     ],
     'mono': [
-      'Menlo',
-      'Monaco',
       'Consolas',
-      'Liberation Mono',
-      'Courier New',
+      'Courier',
       'monospace',
     ]
   },

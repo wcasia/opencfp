@@ -37,7 +37,7 @@ $fa-font-path: "/assets/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
 
 // Font Imports
-@import url("//fonts.googleapis.com/css?family=Roboto+Slab|Rubik");
+@import url("//fonts.googleapis.com/css?family=Rubik|Roboto+Slab");
 
 // Base element styles
 html {
@@ -51,6 +51,7 @@ html {
 
 body {
   @apply .font-serif .text-base .leading-normal .text-dark .m-0 .pb-8;
+  background: #f5f1e8;
 }
 
 button, [role=button] {
@@ -63,6 +64,10 @@ img {
 
 button, input {
   @apply .font-sans;
+}
+
+nav {
+  background: white;
 }
 
 a {

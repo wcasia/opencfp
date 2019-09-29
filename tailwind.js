@@ -46,7 +46,7 @@ var defaultConfig = require('tailwindcss/defaultConfig')();
 var colors = {
   'transparent': 'transparent',
 
-  'black': '#222b2f',
+  'black': '#36393b',
   'grey-darkest': '#364349',
   'grey-darker': '#596a73',
   'grey-dark': '#70818a',
@@ -323,7 +323,7 @@ module.exports = {
   */
 
   textColors: Object.assign({
-    'soft': colors['grey'],
+    'soft': colors['black'],
     'dark': colors['grey-darkest'],
     'brand': colors['brand'],
   }, colors),
